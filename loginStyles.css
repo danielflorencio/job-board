@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar component. */
+
+    
+
+
+
+
+
+
+
+
+
+
+/* Login Component. */
+
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-container{
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.form-aggregator{
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-item-title{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.login-icon{
+    margin-top: 5   vh;
+}
+.login-container input{
+    width: 200px;
+} 
+
+.login-container button{
+    width: 200px;
+}
