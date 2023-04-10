@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100vw;
+    height: fit-content;
+    background-color: darkgray;
+    padding: 15vh 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-posting-drawer-header{
+    width: 60%;
+    height: 14vh;
+    padding: 1.5vh 0;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.job-posting-drawer-header .left-icon{
+    background-color: azure;
+    margin-left: 1vw;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+.job-posting-drawer-header .title-and-tags-box{
+    margin-left: 8px;
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.job-posting-drawer-header .title-and-tags-box .tags {
+    display: flex;
+    gap: 8px;
+}
+.tag{
+
+}
+.job-posting-drawer-header .drawer-icon{
+    background-color: azure;
+    margin-right: 1vw;
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+}

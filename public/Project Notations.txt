@@ -1,0 +1,37 @@
+----- Job Board Project -----
+----- Stack -----
+
+For the frontend: 
+
+	- Vue 3
+	- Composition API
+	- TypeScript
+	- SCSS aka Sass
+	- Pinia
+	- Vite 4
+	- Vitest, Testing Library
+	- Storybook 7
+
+For the backend: 
+
+	- Node.Js
+	- Express.js
+	- MongoDB
+	- JwT
+
+--------------------
+----- Features -----
+
+	- A registration page
+	- A login page
+	- A main page listing all the job postings
+	- A filter in the main page for the user to filter the job posting by skills / abilities.
+	- A profile page for the user to register it's own skills and resume
+	- A "post job" page for the companies to post jobs.
+
+
+
+----- Examples to follow -----
+
+- https://remoteok.com/
+- https://remotive.com/ 
